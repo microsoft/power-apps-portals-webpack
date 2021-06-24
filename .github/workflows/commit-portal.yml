@@ -15,7 +15,7 @@ jobs:
         with:
           lfs: true
       
-      - name: Authenticate
+      - name: Authenticate to Dataverse
         run: |
           pac/pac auth create `
             --url $env:URL `
