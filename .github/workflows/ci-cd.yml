@@ -52,26 +52,23 @@ jobs:
           solution-file: solution.zip
           run-asynchronously: true
       
-#      - name: Authenticate to Dataverse
-#        run: |
-#          pac/pac auth create `
-#            --url $env:URL `
-#            --applicationId $env:APPLICATION_ID `
-#            --clientSecret $env:CLIENT_SECRET `
-#            --tenant $env:TENANT_ID `
-#            --cloud Public
-#        env:
-#          URL: https://mel-portal-prod-github.crm.dynamics.com/
-#          APPLICATION_ID: ${{ secrets.APPLICATION_ID }}
-#          CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
-#          TENANT_ID: ${{ secrets.TENANT_ID }}
-#        shell: powershell
-#
-#      - name: Export portal
-#        run: |
-#          pac/pac paportal download `
-#            --path portal `
-#            --websiteId $env:WEBSITE_ID
-#        env:
-#          WEBSITE_ID: f46b70cc-580b-4f1a-87c3-41deb48eb90d
-#        shell: powershell
+      - name: Authenticate to Dataverse
+        run: |
+          pac/pac auth create `
+            --url $env:URL `
+            --applicationId $env:APPLICATION_ID `
+            --clientSecret $env:CLIENT_SECRET `
+            --tenant $env:TENANT_ID `
+            --cloud Public
+        env:
+          URL: https://mel-portal-prod-github.crm.dynamics.com/
+          APPLICATION_ID: ${{ secrets.APPLICATION_ID }}
+          CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
+          TENANT_ID: ${{ secrets.TENANT_ID }}
+        shell: powershell
+
+      - name: Import portal
+        run: |
+          pac/pac paportal upload `
+            --path portal
+        shell: powershell
