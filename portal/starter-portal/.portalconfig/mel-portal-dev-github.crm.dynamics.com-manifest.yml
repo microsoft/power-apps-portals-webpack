@@ -777,6 +777,11 @@ adx_webfile:
   DisplayName: Product B.png
   CheckSum: 9a5a8c5909bd3d6bc2342518a1f42ece4c56fe7ea7959a49aaa90e93014862ed
   IsDeleted: false
+adx_webform:
+- RecordId: 68d12175-06d5-eb11-bacc-00224820eeac
+  DisplayName: Application
+  CheckSum: 2881308da32853e802e102c289c7683d730b08b22204a4ef39ad23fbaff0b976
+  IsDeleted: false
 adx_weblink:
 - RecordId: 03e1ff20-de15-4ed5-a0b0-239751f2ead7
   DisplayName: FAQ
