@@ -24,6 +24,7 @@ jobs:
           APPLICATION_ID: ${{ secrets.APPLICATION_ID }}
           CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
           TENANT_ID: ${{ secrets.TENANT_ID }}
+        shell: powershell
 
       #- name: Export portal
       #  run: pac/pac paportal
