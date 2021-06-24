@@ -1,0 +1,33 @@
+name: Commit Solution
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_message:
+        description: 'Message for the commit'
+        required: true
+
+jobs:
+  commit:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - uses: microsoft/powerplatform-actions/export-solution@v0
+        with:
+          environment-url: https://mel-portal-dev-github.crm.dynamics.com/
+          app-id: ${{ secrets.APPLICATION_ID }}
+          client-secret: ${{ secrets.CLIENT_SECRET }}
+          tenant-id: ${{ secrets.TENANT_ID }}
+          solution-name: Portal1Day
+          solution-output-file: ${{ runner.temp }}/solution.zip
+      
+      - uses: microsoft/powerplatform-actions/export-solution@v0
+        with:
+          environment-url: https://mel-portal-dev-github.crm.dynamics.com/
+          app-id: ${{ secrets.APPLICATION_ID }}
+          client-secret: ${{ secrets.CLIENT_SECRET }}
+          tenant-id: ${{ secrets.TENANT_ID }}
+          solution-name: Portal1Day
+          solution-output-file: ${{ runner.temp }}/solution_managed.zip
+          managed: true
