@@ -36,16 +36,45 @@ jobs:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+          lfs: true
 
       - uses: actions/download-artifact@v2
         with:
           name: solution
       
-      - uses: microsoft/powerplatform-actions/import-solution@v0
-        with:
-          environment-url: https://mel-portal-prod-github.crm.dynamics.com/
-          app-id: ${{ secrets.APPLICATION_ID }}
-          client-secret: ${{ secrets.CLIENT_SECRET }}
-          tenant-id: ${{ secrets.TENANT_ID }}
-          solution-file: solution/solution.zip
-          run-asynchronously: true
+      - name: Display structure
+        run: ls -R
+
+#      - uses: microsoft/powerplatform-actions/import-solution@v0
+#        with:
+#          environment-url: https://mel-portal-prod-github.crm.dynamics.com/
+#          app-id: ${{ secrets.APPLICATION_ID }}
+#          client-secret: ${{ secrets.CLIENT_SECRET }}
+#          tenant-id: ${{ secrets.TENANT_ID }}
+#          solution-file: solution/solution.zip
+#          run-asynchronously: true
+      
+#      - name: Authenticate to Dataverse
+#        run: |
+#          pac/pac auth create `
+#            --url $env:URL `
+#            --applicationId $env:APPLICATION_ID `
+#            --clientSecret $env:CLIENT_SECRET `
+#            --tenant $env:TENANT_ID `
+#            --cloud Public
+#        env:
+#          URL: https://mel-portal-prod-github.crm.dynamics.com/
+#          APPLICATION_ID: ${{ secrets.APPLICATION_ID }}
+#          CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
+#          TENANT_ID: ${{ secrets.TENANT_ID }}
+#        shell: powershell
+#
+#      - name: Export portal
+#        run: |
+#          pac/pac paportal download `
+#            --path portal `
+#            --websiteId $env:WEBSITE_ID
+#        env:
+#          WEBSITE_ID: f46b70cc-580b-4f1a-87c3-41deb48eb90d
+#        shell: powershell
