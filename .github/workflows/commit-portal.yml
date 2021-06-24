@@ -21,9 +21,9 @@ jobs:
             --cloud Public
         env:
           URL: https://mel-portal-dev-github.crm.dynamics.com/
-          APPLICATION_ID: ${{ secrets.ApplicationId }}
-          CLIENT_SECRET: ${{ secrets.ClientSecret }}
-          TENANT_ID: ${{ secrets.TenantId }}
+          APPLICATION_ID: ${{ secrets.APPLICATION_ID }}
+          CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
+          TENANT_ID: ${{ secrets.TENANT_ID }}
 
       #- name: Export portal
       #  run: pac/pac paportal
