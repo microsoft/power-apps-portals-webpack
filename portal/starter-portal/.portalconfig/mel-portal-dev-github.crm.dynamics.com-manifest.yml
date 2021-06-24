@@ -689,6 +689,15 @@ adx_tag:
   DisplayName: General
   CheckSum: c45c81b7a1042e029389facf4532f873d0677f72abdf71052fefc39a6ebab568
   IsDeleted: false
+adx_urlhistory:
+- RecordId: 22eb423e-f36b-1410-8eb9-00ba62cf20a7
+  DisplayName: ~/new-page-1
+  CheckSum: c544a03478cdee6bc04c67e5003e80138334534fdcbf510f7d86dcadf868e929
+  IsDeleted: false
+- RecordId: 27eb423e-f36b-1410-8eb9-00ba62cf20a7
+  DisplayName: ~/new-page-1
+  CheckSum: 11f4507d32265a4e906a0a4921c653c3a2fe0f2d0013b28f5f6985de28409a34
+  IsDeleted: false
 adx_webfile:
 - RecordId: 04bf86c6-ab21-466d-b63e-5f22c4340d77
   DisplayName: About Us.png
@@ -743,6 +752,10 @@ adx_webfile:
   CheckSum: 9a5a8c5909bd3d6bc2342518a1f42ece4c56fe7ea7959a49aaa90e93014862ed
   IsDeleted: false
 adx_weblink:
+- RecordId: 03e1ff20-de15-4ed5-a0b0-239751f2ead7
+  DisplayName: FAQ
+  CheckSum: fca2afc56f161bd41c66a21b4a5418628c44d6c223c720fc3189f0a4d2778000
+  IsDeleted: false
 - RecordId: 090d9b6e-cd94-4d13-858f-fdeccb127df1
   DisplayName: Home
   CheckSum: d5dba60be9d321d00e634265bcda15c5a77f8a52c3817754dbff59b1cdd10c70
@@ -827,7 +840,7 @@ adx_webpage:
   IsDeleted: false
 - RecordId: 37f25ff6-1740-4f62-902b-34eac1ca6162
   DisplayName: Home
-  CheckSum: c1ed14e55e2d036ec8e3f6b2b8229a9064e3be9d72cf1a1daa6d443f2cf748f2
+  CheckSum: 07917cfbddc48bef7c43fc7174d8c9da824b82ba1d2df6e44db27b7531b560f8
   IsDeleted: false
 - RecordId: 3b026d90-72e9-4ae4-816d-75d6a87bd0a8
   DisplayName: Search
@@ -836,6 +849,10 @@ adx_webpage:
 - RecordId: 4e5f61f6-a476-4e81-b69b-e4c3a30bc7ab
   DisplayName: Services
   CheckSum: 850dda69a7558b5b2be9bbe0a8802d722ae58c1583db03ee8f39c7d826b2f214
+  IsDeleted: false
+- RecordId: 5f580f75-8db4-4da8-800f-1bb26102e667
+  DisplayName: FAQ
+  CheckSum: 07aa08eb0b7bae6289375cf2be599afe09b527be023588625925cda1d08e3370
   IsDeleted: false
 - RecordId: 6c09c142-6b21-4ca7-a1f2-131f4e28dab7
   DisplayName: Profile
@@ -872,6 +889,10 @@ adx_webpage:
 - RecordId: b79412fb-230b-4400-b773-ac2e54b9a451
   DisplayName: Product A (sample)
   CheckSum: 1ad285f0239d6ebcaa56cd4414f859d0310fa72cc124907e1e9e18192606947e
+  IsDeleted: false
+- RecordId: cae35304-a9d4-eb11-bacc-00224820e6a0
+  DisplayName: FAQ
+  CheckSum: b40126e80bcaa9514a3d55807abea53b78f0ad1aa129cb4043ac5f852de0cea0
   IsDeleted: false
 - RecordId: e1e609ad-384a-49ed-b4b2-b60f81fa2dcd
   DisplayName: Product B (sample)
