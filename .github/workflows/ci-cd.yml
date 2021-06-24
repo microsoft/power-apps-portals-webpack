@@ -1,0 +1,49 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "portal/**"
+      - "solution/**"
+
+concurrency:
+  group: production
+  cancel-in-progress: true
+
+jobs:
+  build_solution:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: microsoft/powerplatform-actions/pack-solution@v0
+        solution-file: ${{ runner.temp }}/solution.zip
+        solution-folder: solution
+        solution-type: Managed
+      
+      - uses: actions/upload-artifact@v2
+        with:
+          name: solution
+          path: ${{ runner.temp }}/solution.zip
+  
+  deploy:
+    needs: build_solution
+    environment: production
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/download-artifact@v2
+        with:
+          name: solution
+      
+      - uses: microsoft/powerplatform-actions/import-solution@v0
+        with:
+          environment-url: https://mel-portal-prod-github.crm.dynamics.com/
+          app-id: ${{ secrets.APPLICATION_ID }}
+          client-secret: ${{ secrets.CLIENT_SECRET }}
+          tenant-id: ${{ secrets.TENANT_ID }}
+          solution-file: solution/solution.zip
+          run-asynchronously: true
