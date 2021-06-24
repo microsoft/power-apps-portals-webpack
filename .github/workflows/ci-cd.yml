@@ -6,6 +6,15 @@ on:
       - main
     paths:
       - portal/**
+      - solution/**
+  workflow_run:
+    workflows:
+      - Commit Portal
+      - Commit Solution
+    branches:
+      - main
+    types:
+      - completed
   workflow_dispatch:
 
 concurrency:
