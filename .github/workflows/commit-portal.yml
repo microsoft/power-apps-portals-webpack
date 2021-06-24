@@ -13,4 +13,4 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Export portal
-        run: pac/pac paportal
+        run: pac/pac.exe paportal
