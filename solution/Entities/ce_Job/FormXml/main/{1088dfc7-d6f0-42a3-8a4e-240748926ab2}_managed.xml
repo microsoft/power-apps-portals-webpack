@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{1088dfc7-d6f0-42a3-8a4e-240748926ab2}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{c0b7de1f-3126-4e84-8645-fba151d6bb58}" IsUserDefined="1" name="General">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{0ceff021-15dc-43a6-9a11-e70630391a94}" height="auto">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{7889eebc-fa0c-4fd5-873a-43e843f666eb}">
+                        <labels>
+                          <label description="Job" languagecode="1033" />
+                        </labels>
+                        <control id="ce_job" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ce_job" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{06a00605-3d0c-45b8-a89c-860dcbdaa142}" locklevel="0">
+                        <labels>
+                          <label description="Job Category" languagecode="1033" />
+                        </labels>
+                        <control id="ce_jobcategory" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ce_jobcategory" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{502957a5-4546-14dd-4be2-036e5500c19e}" showlabel="true" locklevel="0" auto="true" rowspan="2">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="ce_description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="ce_description" disabled="false" uniqueid="{7350bb70-986d-04b0-58bd-54b33b81a73b}" />
+                      </cell>
+                    </row>
+                    <row height="auto" />
+                    <row>
+                      <cell id="{abd9a076-152c-974b-8e4c-a7b3337c107c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Created On" languagecode="1033" />
+                        </labels>
+                        <control id="createdon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5b2529cd-c5bc-4538-be5f-68d02da794b0}" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control id="statecode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{12ad7267-7fce-41f0-82e3-1bc9bef4fc95}" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{89791ce3-f3b7-4463-bce8-009f50e6504e}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{03eee2ef-19f2-444d-8d79-2811ba062d55}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{1de69d8a-0192-40ba-b561-c609d96cccc7}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{e61fad15-b7c7-4de2-b4c0-50c07f850dd6}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{9636662f-045d-45c0-80de-ff16665f0be0}" locklevel="0">
+              <labels>
+                <label description="Application Status" languagecode="1033" />
+              </labels>
+              <control id="header_ce_applicationstatus" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ce_applicationstatus" disabled="false" />
+            </cell>
+            <cell id="{d397eb34-90b3-42c4-a04c-cc56d90d1c4e}" locklevel="0">
+              <labels>
+                <label description="Job Number" languagecode="1033" />
+              </labels>
+              <control id="header_ce_jobnumber" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ce_jobnumber" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{25775c8c-89ab-4c30-ac27-afbc44d375ac}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{daa63e40-7b5a-4bad-944d-4c317079a4b8}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{03be41a8-e465-4375-abcc-1831fcf80713}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{e9735da2-46af-41c0-a940-92b590458e0f}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

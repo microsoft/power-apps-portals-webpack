@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{499094d6-dd3b-eb11-a813-000d3a9cbcd2}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ce_application" select="1" icon="1" preview="1">
+        <row name="result" id="ce_applicationid">
+          <cell name="ce_job" width="100" />
+          <cell name="a_5a7af65f2db543c5bc70006b1dc80f19.ce_jobnumber" width="100" />
+          <cell name="a_5a7af65f2db543c5bc70006b1dc80f19.ce_applicationstatus" width="100" />
+          <cell name="ce_applicantstatus" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="ce_application">
+          <attribute name="ce_applicationid" />
+          <attribute name="ce_job" />
+          <link-entity alias="a_5a7af65f2db543c5bc70006b1dc80f19" name="ce_job" to="ce_job" from="ce_jobid" link-type="outer" visible="false">
+            <attribute name="ce_jobnumber" />
+            <attribute name="ce_applicationstatus" />
+          </link-entity>
+          <attribute name="ce_applicantstatus" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="My Applications" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="The applications for which I've applied. " languagecode="1033" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

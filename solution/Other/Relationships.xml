@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="adx_invitation_invitecontacts" />
+  <EntityRelationship Name="adx_invitation_redeemedcontacts" />
+  <EntityRelationship Name="adx_portallanguage_contact" />
+  <EntityRelationship Name="adx_webrole_contact" />
+  <EntityRelationship Name="business_unit_ce_application" />
+  <EntityRelationship Name="business_unit_ce_job" />
+  <EntityRelationship Name="business_unit_ce_ticket" />
+  <EntityRelationship Name="ce_Application_Job_ce_Job" />
+  <EntityRelationship Name="ce_Ticket_Summittedby_Contact" />
+  <EntityRelationship Name="lk_ce_application_createdby" />
+  <EntityRelationship Name="lk_ce_application_modifiedby" />
+  <EntityRelationship Name="lk_ce_job_createdby" />
+  <EntityRelationship Name="lk_ce_job_modifiedby" />
+  <EntityRelationship Name="lk_ce_ticket_createdby" />
+  <EntityRelationship Name="lk_ce_ticket_modifiedby" />
+  <EntityRelationship Name="msa_contact_managingpartner" />
+  <EntityRelationship Name="owner_ce_application" />
+  <EntityRelationship Name="owner_ce_job" />
+  <EntityRelationship Name="owner_ce_ticket" />
+  <EntityRelationship Name="team_ce_application" />
+  <EntityRelationship Name="team_ce_job" />
+  <EntityRelationship Name="team_ce_ticket" />
+  <EntityRelationship Name="user_ce_application" />
+  <EntityRelationship Name="user_ce_job" />
+  <EntityRelationship Name="user_ce_ticket" />
+</EntityRelationships>

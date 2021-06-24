@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.21053.136" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>Portal1Day</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Portal 1 Day" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.3</Version>
+    <Managed>2</Managed>
+    <Publisher>
+      <UniqueName>CustomerEngineer</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="D365 Customer Engineer" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="Dynamics 365 Customer Engineer" languagecode="1033" />
+      </Descriptions>
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>ce</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>13430</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="ce_application" behavior="0" />
+      <RootComponent type="1" schemaName="ce_job" behavior="0" />
+      <RootComponent type="1" schemaName="ce_ticket" behavior="0" />
+      <RootComponent type="1" schemaName="contact" behavior="0" />
+      <RootComponent type="9" schemaName="ce_applicantstatus" behavior="0" />
+      <RootComponent type="9" schemaName="ce_applicationstatus" behavior="0" />
+      <RootComponent type="9" schemaName="ce_issue" behavior="0" />
+      <RootComponent type="9" schemaName="ce_jobcategory" behavior="0" />
+      <RootComponent type="9" schemaName="ce_ticketstatus" behavior="0" />
+      <RootComponent type="20" id="{a7be3689-ee3b-eb11-a813-000d3a9cbcd2}" behavior="0" />
+      <RootComponent type="60" id="{1088dfc7-d6f0-42a3-8a4e-240748926ab2}" behavior="0" />
+      <RootComponent type="60" id="{487d166f-c33c-eb11-a813-000d3a9cbcd2}" behavior="0" />
+      <RootComponent type="60" id="{5344bdcf-9f3c-eb11-a813-000d3a9cbcd2}" behavior="0" />
+      <RootComponent type="60" id="{63c837ed-be3c-eb11-a813-000d3a9cbcd2}" behavior="0" />
+      <RootComponent type="60" id="{92a8b73f-e161-4f0c-b84b-404f5b2ad362}" behavior="0" />
+      <RootComponent type="60" id="{95f3de9c-38e6-45e9-94f6-9beae9ff6a06}" behavior="0" />
+      <RootComponent type="60" id="{f633c02b-5b23-4387-9a2e-0e6c7aaee080}" behavior="0" />
+      <RootComponent type="61" schemaName="ce_JobIcon" behavior="0" />
+      <RootComponent type="61" schemaName="ce_ResumeIcon" behavior="0" />
+      <RootComponent type="61" schemaName="ce_TicketSVG" behavior="0" />
+      <RootComponent type="62" schemaName="ce_Anytown311" behavior="0" />
+      <RootComponent type="80" schemaName="ce_Anytown311" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="adx_bpf_c2857b638fa7473d8e2f112c232cebd8" displayName="Change Password for Portals Contact" solution="MicrosoftIdentity (9.2.2103.1)" />
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="adx_externalidentity" displayName="External Identity" solution="MicrosoftIdentity (9.2.2103.1)" />
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="adx_invitation" displayName="Invitation" solution="MicrosoftPortalBase (9.2.2103.1)" />
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="adx_pagealert" displayName="Page Alert" solution="MicrosoftPortalBase (9.2.2103.1)" />
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="adx_pagenotification" displayName="Page Notification" solution="MicrosoftPortalBase (9.2.2103.1)" />
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="adx_pollsubmission" displayName="Poll Submission" solution="MicrosoftPortalBase (9.2.2103.1)" />
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="adx_portallanguage" displayName="Portal Language" solution="MicrosoftPortalBase (9.2.2103.1)" />
+        <Dependent type="10" schemaName="adx_portallanguage_contact" displayName="adx_portallanguage_contact" parentSchemaName="adx_portallanguage" parentDisplayName="Portal Language" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="adx_webfilelog" displayName="Web File Log" solution="MicrosoftPortalBase (9.2.2103.1)" />
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="adx_webformsession" displayName="Web Form Session" solution="MicrosoftPortalWebForms (9.2.2103.1)" />
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="adx_webpage" displayName="Web Page" solution="MicrosoftPortalDependencies (9.2.2103.0)" />
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="adx_webpagehistory" displayName="Web Page History" solution="MicrosoftPortalBase (9.2.2103.1)" />
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="adx_webpagelog" displayName="Web Page Log" solution="MicrosoftPortalBase (9.2.2103.1)" />
+        <Dependent type="1" schemaName="contact" displayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msa_contact_managingpartner" displayName="msa_contact_managingpartner" parentSchemaName="account" parentDisplayName="Account" solution="MicrosoftPortalDependencies (9.2.2103.0)" />
+        <Dependent type="10" schemaName="msa_contact_managingpartner" displayName="msa_contact_managingpartner" parentSchemaName="account" parentDisplayName="Account" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msa_contact_managingpartner" displayName="msa_contact_managingpartner" parentSchemaName="account" parentDisplayName="Account" solution="MicrosoftPortalDependencies (9.2.2103.0)" />
+        <Dependent type="2" schemaName="msa_managingpartneridname" parentSchemaName="contact" parentDisplayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="msa_contact_managingpartner" displayName="msa_contact_managingpartner" parentSchemaName="account" parentDisplayName="Account" solution="MicrosoftPortalDependencies (9.2.2103.0)" />
+        <Dependent type="2" schemaName="msa_managingpartneridyominame" parentSchemaName="contact" parentDisplayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="adx_invitation_invitecontacts" displayName="adx_invitation_invitecontacts" parentSchemaName="adx_invitation" parentDisplayName="Invitation" solution="MicrosoftPortalBase (9.2.2103.1)" />
+        <Dependent type="10" schemaName="adx_invitation_invitecontacts" displayName="adx_invitation_invitecontacts" parentSchemaName="adx_invitation" parentDisplayName="Invitation" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="adx_invitation_redeemedcontacts" displayName="adx_invitation_redeemedcontacts" parentSchemaName="adx_invitation" parentDisplayName="Invitation" solution="MicrosoftPortalBase (9.2.2103.1)" />
+        <Dependent type="10" schemaName="adx_invitation_redeemedcontacts" displayName="adx_invitation_redeemedcontacts" parentSchemaName="adx_invitation" parentDisplayName="Invitation" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="adx_portallanguage_contact" displayName="adx_portallanguage_contact" parentSchemaName="adx_portallanguage" parentDisplayName="Portal Language" solution="MicrosoftPortalBase (9.2.2103.1)" />
+        <Dependent type="10" schemaName="adx_portallanguage_contact" displayName="adx_portallanguage_contact" parentSchemaName="adx_portallanguage" parentDisplayName="Portal Language" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="adx_portallanguage_contact" displayName="adx_portallanguage_contact" parentSchemaName="adx_portallanguage" parentDisplayName="Portal Language" solution="MicrosoftPortalBase (9.2.2103.1)" />
+        <Dependent type="2" schemaName="adx_preferredlanguageidname" parentSchemaName="contact" parentDisplayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="adx_webrole_contact" displayName="adx_webrole_contact" parentSchemaName="adx_webrole" parentDisplayName="Web Role" solution="MicrosoftPortalDependencies (9.2.2103.0)" />
+        <Dependent type="10" schemaName="adx_webrole_contact" displayName="adx_webrole_contact" parentSchemaName="adx_webrole" parentDisplayName="Web Role" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="adx_name" displayName="Name" parentSchemaName="adx_portallanguage" parentDisplayName="Portal Language" solution="MicrosoftPortalBase (9.2.2103.1)" />
+        <Dependent type="10" schemaName="adx_portallanguage_contact" displayName="adx_portallanguage_contact" parentSchemaName="adx_portallanguage" parentDisplayName="Portal Language" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="adx_portallanguageid" displayName="Portal Language" parentSchemaName="adx_portallanguage" parentDisplayName="Portal Language" solution="MicrosoftPortalBase (9.2.2103.1)" />
+        <Dependent type="10" schemaName="adx_portallanguage_contact" displayName="adx_portallanguage_contact" parentSchemaName="adx_portallanguage" parentDisplayName="Portal Language" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="adx_preferredlanguageid" displayName="Preferred Language" parentSchemaName="contact" parentDisplayName="Contact" solution="MicrosoftPortalBase (9.2.2103.1)" />
+        <Dependent type="10" schemaName="adx_portallanguage_contact" displayName="adx_portallanguage_contact" parentSchemaName="adx_portallanguage" parentDisplayName="Portal Language" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msa_managingpartnerid" displayName="Managing Partner" parentSchemaName="contact" parentDisplayName="Contact" solution="MicrosoftPortalDependencies (9.2.2103.0)" />
+        <Dependent type="2" schemaName="parentcustomerid" displayName="Company Name" parentSchemaName="contact" parentDisplayName="Contact" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent type="80" schemaName="ce_Anytown311" displayName="Anytown 311" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

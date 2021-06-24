@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModuleSiteMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SiteMapUniqueName>ce_Anytown311</SiteMapUniqueName>
+  <SiteMap IntroducedVersion="7.0.0.0">
+    <Area Id="NewArea_faabb92e" ResourceId="SitemapDesigner.NewArea" VectorIcon="/WebResources/ce_TicketSVG" Icon="/WebResources/ce_TicketSVG" ShowGroups="false">
+      <Titles>
+        <Title LCID="1033" Title="311 Support" />
+      </Titles>
+      <Group Id="NewGroup_7ccd8cef" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Portal Users" />
+        </Titles>
+        <SubArea Id="NewSubArea_4ebec484" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="contact" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="NewGroup_94abbe06" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Ticket Management" />
+        </Titles>
+        <SubArea Id="NewSubArea_ccc2d68f" VectorIcon="/WebResources/ce_TicketSVG" Icon="/WebResources/ce_TicketSVG" Entity="ce_ticket" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="NewGroup_3230a0ee" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Recruitment" />
+        </Titles>
+        <SubArea Id="NewSubArea_6ba566df" VectorIcon="/WebResources/ce_JobIcon" Icon="/WebResources/ce_JobIcon" Entity="ce_job" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_4921eadc" VectorIcon="/WebResources/ce_ResumeIcon" Icon="/WebResources/ce_ResumeIcon" Entity="ce_application" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+    </Area>
+  </SiteMap>
+  <LocalizedNames>
+    <LocalizedName description="Anytown 311" languagecode="1033" />
+  </LocalizedNames>
+</AppModuleSiteMap>

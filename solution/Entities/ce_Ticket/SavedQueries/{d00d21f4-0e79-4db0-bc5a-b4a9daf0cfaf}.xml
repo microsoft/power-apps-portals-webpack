@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{d00d21f4-0e79-4db0-bc5a-b4a9daf0cfaf}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ce_tickettopic" select="1" icon="1" preview="1">
+        <row name="result" id="ce_ticketid">
+          <cell name="ce_ticketstatus" width="100" />
+          <cell name="ce_tickettopic" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ce_ticket">
+          <attribute name="ce_ticketid" />
+          <attribute name="ce_tickettopic" />
+          <attribute name="createdon" />
+          <order attribute="ce_tickettopic" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="ce_ticketstatus" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Tickets" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

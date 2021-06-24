@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="ce_jobcategory" localizedName="Job Category" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Job Category" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="134300000">
+      <labels>
+        <label description="Support" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="134300001">
+      <labels>
+        <label description="Construction" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="134300002">
+      <labels>
+        <label description="Office Staff" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="134300003">
+      <labels>
+        <label description="Technical" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="134300004">
+      <labels>
+        <label description="Engineering" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="134300005">
+      <labels>
+        <label description="Emergency Services " languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>
