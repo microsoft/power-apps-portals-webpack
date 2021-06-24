@@ -49,7 +49,7 @@ jobs:
 
       - name: Commit
         run: |
-          git add .
+          git add portal/*
           git commit -m $env:COMMIT_MESSAGE --author "${{ github.actor }}"
           git push
         env:
