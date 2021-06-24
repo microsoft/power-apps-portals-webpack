@@ -16,7 +16,7 @@ jobs:
         run: rm pac -rf
       
       - name: Copy pac folder from powerplatform-actions
-        run: cp -r $RUNNER_TEMP/powerplatform-actions/dist/pac pac
+        run: cp -r $RUNNER_TEMP/powerplatform-actions/dist/pac/tools pac
       
       - name: Configure git
         run: |
