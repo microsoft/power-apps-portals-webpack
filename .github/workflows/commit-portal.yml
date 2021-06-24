@@ -26,5 +26,14 @@ jobs:
           TENANT_ID: ${{ secrets.TENANT_ID }}
         shell: powershell
 
-      #- name: Export portal
-      #  run: pac/pac paportal
+      - name: Delete portal folder
+        run: rm portal -rf
+
+      - name: Export portal
+        run: |
+          pac/pac paportal download `
+            --path portal `
+            --websiteId $env:WEBSITE_ID
+        env:
+          WEBSITE_ID: f46b70cc-580b-4f1a-87c3-41deb48eb90d
+        shell: powershell
