@@ -22,6 +22,7 @@ jobs:
           tenant-id: ${{ secrets.TENANT_ID }}
           solution-name: Portal1Day
           solution-output-file: ${{ runner.temp }}/solution.zip
+          run-asynchronously: true
       
       - uses: microsoft/powerplatform-actions/export-solution@v0
         name: Export managed
@@ -32,6 +33,7 @@ jobs:
           tenant-id: ${{ secrets.TENANT_ID }}
           solution-name: Portal1Day
           solution-output-file: ${{ runner.temp }}/solution_managed.zip
+          run-asynchronously: true
           managed: true
 
       - name: Delete solution folder
