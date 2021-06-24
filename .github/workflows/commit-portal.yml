@@ -1,0 +1,16 @@
+name: Commit Portal
+
+on:
+  workflow_dispatch:
+
+env:
+  URL: https://mel-portal-dev-github.crm.dynamics.com/
+
+jobs:
+  commit:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Export portal
+        run: pac paportal
