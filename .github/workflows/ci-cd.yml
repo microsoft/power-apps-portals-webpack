@@ -5,8 +5,7 @@ on:
     branches:
       - main
     paths:
-      - 'portal/**/*.*'
-      - 'solution/**/*.*'
+      - 'portal/**'
   workflow_dispatch:
 
 concurrency:
