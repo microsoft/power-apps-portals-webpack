@@ -8,10 +8,10 @@ env:
 
 jobs:
   commit:
-    runs-on: windows-2016
+    runs-on: windows-latest
     steps:
       - uses: actions/checkout@v2
+        lfs: true
 
       - name: Export portal
-        run: pac/pac.exe paportal
-        shell: powershell
+        run: pac/pac paportal
