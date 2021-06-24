@@ -14,3 +14,12 @@ jobs:
 
       - name: Delete existing pac folder
         run: rm pac -rf
+      
+      - name: Copy pac folder from powerplatform-actions
+        run: cp -r $RUNNER_TEMP/powerplatform-actions/dist/pac pac
+      
+      - name: Commit
+        run: |
+          git add .
+          git commit -m "updated pac using workflow (run ID $GITHUB_RUN_ID)"
+          git push
