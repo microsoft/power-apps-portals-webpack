@@ -698,6 +698,14 @@ adx_urlhistory:
   DisplayName: ~/new-page-1
   CheckSum: 11f4507d32265a4e906a0a4921c653c3a2fe0f2d0013b28f5f6985de28409a34
   IsDeleted: false
+- RecordId: 29eb423e-f36b-1410-8eb9-00ba62cf20a7
+  DisplayName: ~/new-page-1
+  CheckSum: 91c2138a6825aeb96e88de9a92139186ad9e2bf7b1fdaf4ac7abb4c64b5d2fef
+  IsDeleted: false
+- RecordId: 2eeb423e-f36b-1410-8eb9-00ba62cf20a7
+  DisplayName: ~/new-page-1
+  CheckSum: 0b3240ecf6fd793308fd9501acebb191cdb9a73d2630f5572196978b396fdc90
+  IsDeleted: false
 adx_webfile:
 - RecordId: 04bf86c6-ab21-466d-b63e-5f22c4340d77
   DisplayName: About Us.png
@@ -745,7 +753,7 @@ adx_webfile:
   IsDeleted: false
 - RecordId: cbda3cf8-a7d4-eb11-bacc-00224820eeac
   DisplayName: portalbasictheme.css
-  CheckSum: 558102f6a97b4a66f23b2c713bc8753e00a3144e0a7236372956f63828ee7b97
+  CheckSum: e7491209c9827df595f66d120f0dc16a9ce40a6db469637c748bfef91ab4c0da
   IsDeleted: false
 - RecordId: f0cc058e-ff99-4ab5-b54d-dbeec5366fc1
   DisplayName: Product B.png
@@ -779,6 +787,10 @@ adx_weblink:
 - RecordId: 8aa5acb5-8e7f-4197-a244-bef49f331535
   DisplayName: Services
   CheckSum: 8b0311a37d22fa7cf148d3782aa2d894c6f87bff2e4a52f073eae241eb7959fd
+  IsDeleted: false
+- RecordId: 9b0f4432-a387-4542-8519-fbf8c00c9296
+  DisplayName: Submit New Ticket
+  CheckSum: 302ebfdb22f34d2140cdd44796c9121fe9afd2b5c19c773d4f5d2bad604b5579
   IsDeleted: false
 - RecordId: 9fc01266-c65b-4840-b1d0-380b87f2625e
   DisplayName: About us
@@ -846,6 +858,10 @@ adx_webpage:
   DisplayName: Search
   CheckSum: 0fb945a94f5fb1c8a875f64622346cb11120cd388d8c3037b6f596fb4d22b2eb
   IsDeleted: false
+- RecordId: 4d596980-aad4-eb11-bacc-00224820e6a0
+  DisplayName: Submit New Ticket
+  CheckSum: 45fbf9c1c12552777479952b62a05879f6b2b2d13fb476aa37d1912eea7b5233
+  IsDeleted: false
 - RecordId: 4e5f61f6-a476-4e81-b69b-e4c3a30bc7ab
   DisplayName: Services
   CheckSum: 850dda69a7558b5b2be9bbe0a8802d722ae58c1583db03ee8f39c7d826b2f214
@@ -893,6 +909,10 @@ adx_webpage:
 - RecordId: cae35304-a9d4-eb11-bacc-00224820e6a0
   DisplayName: FAQ
   CheckSum: b40126e80bcaa9514a3d55807abea53b78f0ad1aa129cb4043ac5f852de0cea0
+  IsDeleted: false
+- RecordId: e04a216f-6a63-4b96-a340-d7051a974b8f
+  DisplayName: Submit New Ticket
+  CheckSum: f138f1442a7926df467889d199b3fcabca85bee6f6edbcd5da638f377a106e02
   IsDeleted: false
 - RecordId: e1e609ad-384a-49ed-b4b2-b60f81fa2dcd
   DisplayName: Product B (sample)
