@@ -203,7 +203,7 @@ adx_contentsnippet:
   IsDeleted: false
 - RecordId: 7c2e535c-9a56-4eac-ae0e-b6c3622ca059
   DisplayName: Mobile Header
-  CheckSum: c36d1da0381f898d7b407cec4e5474146ae692c6277e127df36ebbe289ce8a04
+  CheckSum: d6a82895494074accedc1ca11f8b7f2140ae123c7914bab8be9c060c2492cbbb
   IsDeleted: false
 - RecordId: 8411c4dc-0edb-4635-a64a-09bce05ef071
   DisplayName: Header/Toggle Navigation
@@ -582,7 +582,7 @@ adx_sitesetting:
   IsDeleted: false
 - RecordId: 7f09de77-a7d4-eb11-bacc-00224820eeac
   DisplayName: ThemeFeature
-  CheckSum: 9586e93712af4dcbcee8416099e7908629bd7d8588ce2755fa2f373298034a0e
+  CheckSum: a4a4820c1bfca678c8d260b7d75f4b252fb75a199734502bb2982b151fef18c4
   IsDeleted: false
 - RecordId: 7f88e9ab-3a8a-4309-a8c1-c6b048376a40
   DisplayName: Authentication/LoginThrottling/IpAddressTimeoutTimeSpan
@@ -702,6 +702,10 @@ adx_webfile:
   DisplayName: bootstrap.min.css
   CheckSum: 364330534fba0916903f16bb596645d6902bc74dd891f48698a30d8e87f68571
   IsDeleted: false
+- RecordId: 2600ecf9-a7d4-eb11-bacc-00224820e6a0
+  DisplayName: portalbasictheme.css
+  CheckSum: c03de30d7d40f4ea824c7cfff2e0346caa1ebc72f598a0e4e7d0bf17039e79f3
+  IsDeleted: false
 - RecordId: 47975a2e-6bd2-423b-91a9-940d2189ab00
   DisplayName: Growth.png
   CheckSum: 07c088f0b33ff13a61f00fd67ca077fe1a8f9db3bef2ce0009d2e9f5537e054c
@@ -729,6 +733,10 @@ adx_webfile:
 - RecordId: a3117739-9679-41c1-b876-34b6d044579d
   DisplayName: Homehero.png
   CheckSum: 86bf3ca92062009279d43f6b29f7c1d9d3c754667fdef56f6979cc48ece2ebd3
+  IsDeleted: false
+- RecordId: cbda3cf8-a7d4-eb11-bacc-00224820eeac
+  DisplayName: portalbasictheme.css
+  CheckSum: 558102f6a97b4a66f23b2c713bc8753e00a3144e0a7236372956f63828ee7b97
   IsDeleted: false
 - RecordId: f0cc058e-ff99-4ab5-b54d-dbeec5366fc1
   DisplayName: Product B.png
@@ -1128,6 +1136,14 @@ annotation:
 - RecordId: b910c9d4-2587-4762-b03c-d736d9343e3f
   DisplayName: Logo.png
   CheckSum: 40b8ac4557b00f16dce2db5efddeaa2508899618c62a2b77ad9f9f7242b5f4ad
+  IsDeleted: false
+- RecordId: ccda3cf8-a7d4-eb11-bacc-00224820eeac
+  DisplayName: portalbasictheme.css
+  CheckSum: 00cb1e58fc8f94407340ef5e3d6b2899207c65f9ac992f2195be1ebf2994aabe
+  IsDeleted: false
+- RecordId: cdda3cf8-a7d4-eb11-bacc-00224820eeac
+  DisplayName: portalbasictheme.css
+  CheckSum: 12e7ab40eb9b80cbac0fe49ddf9e086f18b89fe848164479212448ad8df74e18
   IsDeleted: false
 - RecordId: ee21fea9-aa15-4c81-9335-bfdbad9c8076
   DisplayName: Edit.png

@@ -84,7 +84,7 @@
   adx_value: SAMEORIGIN
 - adx_name: ThemeFeature
   adx_sitesettingid: 7f09de77-a7d4-eb11-bacc-00224820eeac
-  adx_value: '{"status":"disable","selectedThemeId":"df88c9ca-e24f-4eca-af9a-880e7b8559a0","siteSettingId":""}'
+  adx_value: '{"status":"enable","selectedThemeId":"e4b7a39b-a92e-4755-9507-c5383356fb2c","siteSettingId":"7f09de77-a7d4-eb11-bacc-00224820eeac"}'
 - adx_description: 'The amount of time the IP address will have to wait if Authentication/LoginThrottling/MaxInvaildAttemptsFromIPAddress occur within Authentication/LoginThrottling/MaxAttemptsTimeLimitTimeSpan amount of time. Default: 00:10:00 (10 mins)'
   adx_name: Authentication/LoginThrottling/IpAddressTimeoutTimeSpan
   adx_sitesettingid: 7f88e9ab-3a8a-4309-a8c1-c6b048376a40
