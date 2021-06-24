@@ -42,18 +42,15 @@ jobs:
       - uses: actions/download-artifact@v2
         with:
           name: solution
-      
-      - name: Display structure
-        run: ls -R
 
-#      - uses: microsoft/powerplatform-actions/import-solution@v0
-#        with:
-#          environment-url: https://mel-portal-prod-github.crm.dynamics.com/
-#          app-id: ${{ secrets.APPLICATION_ID }}
-#          client-secret: ${{ secrets.CLIENT_SECRET }}
-#          tenant-id: ${{ secrets.TENANT_ID }}
-#          solution-file: solution/solution.zip
-#          run-asynchronously: true
+      - uses: microsoft/powerplatform-actions/import-solution@v0
+        with:
+          environment-url: https://mel-portal-prod-github.crm.dynamics.com/
+          app-id: ${{ secrets.APPLICATION_ID }}
+          client-secret: ${{ secrets.CLIENT_SECRET }}
+          tenant-id: ${{ secrets.TENANT_ID }}
+          solution-file: solution.zip
+          run-asynchronously: true
       
 #      - name: Authenticate to Dataverse
 #        run: |
