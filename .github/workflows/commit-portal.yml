@@ -37,3 +37,14 @@ jobs:
         env:
           WEBSITE_ID: f46b70cc-580b-4f1a-87c3-41deb48eb90d
         shell: powershell
+      
+      - name: Configure git
+        run: |
+          git config user.name "${{ github.event.sender.login }}"
+          git config user.email "${{ github.event.sender.email }}"
+
+      - name: Commit
+        run: |
+          git add .
+          git commit -m "updated pac using workflow (run id $GITHUB_RUN_ID)"
+          git push
