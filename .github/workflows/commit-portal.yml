@@ -27,7 +27,7 @@ jobs:
         shell: powershell
 
       - name: Delete portal folder
-        run: rm portal -rf
+        run: rm portal -Recurse -Force -ErrorAction Ignore
 
       - name: Export portal
         run: |
