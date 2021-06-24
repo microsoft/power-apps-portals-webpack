@@ -580,6 +580,10 @@ adx_sitesetting:
   DisplayName: HTTP/X-Frame-Options
   CheckSum: 2b5914a02aec474b1c57a0e79e869f825d23eac918ca2b3fa443ea6893294af8
   IsDeleted: false
+- RecordId: 7f09de77-a7d4-eb11-bacc-00224820eeac
+  DisplayName: ThemeFeature
+  CheckSum: 9586e93712af4dcbcee8416099e7908629bd7d8588ce2755fa2f373298034a0e
+  IsDeleted: false
 - RecordId: 7f88e9ab-3a8a-4309-a8c1-c6b048376a40
   DisplayName: Authentication/LoginThrottling/IpAddressTimeoutTimeSpan
   CheckSum: c240413dd056e29c457625ac86503327ce15848a16b93c0b73cf2c01fa7977e8
