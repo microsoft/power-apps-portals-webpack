@@ -39,7 +39,7 @@ jobs:
       - name: Delete solution folder
         run: Remove-Item solution -Recurse -Force -ErrorAction Ignore
 
-      - uses: microsoft/powerplatform-actions/unpack-solution
+      - uses: microsoft/powerplatform-actions/unpack-solution@v0
         with:
           solution-file: ${{ runner.temp }}/solution.zip
           solution-folder: solution
