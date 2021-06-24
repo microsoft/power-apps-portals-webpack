@@ -2,6 +2,10 @@ name: Commit Portal
 
 on:
   workflow_dispatch:
+    inputs:
+      commit_message:
+        description: 'Message for the commit'
+        required: true
 
 jobs:
   commit:
@@ -40,11 +44,13 @@ jobs:
       
       - name: Configure git
         run: |
-          git config user.name "${{ github.event.sender.login }}"
-          git config user.email "${{ github.event.sender.email }}"
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
 
       - name: Commit
         run: |
           git add .
-          git commit -m "updated pac using workflow (run id $GITHUB_RUN_ID)"
+          git commit -m $env:COMMIT_MESSAGE --author "${{ github.actor }}"
           git push
+        env:
+          COMMIT_MESSAGE: ${{ github.event.inputs.commit_message }}
