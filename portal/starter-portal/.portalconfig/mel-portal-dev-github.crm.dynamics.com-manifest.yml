@@ -377,6 +377,11 @@ adx_contentsnippet:
   DisplayName: Account/Signin/TermsAndConditionsButtonText
   CheckSum: a3c7cf44caea3620ab54b0583227ed057c4205ad13b729121c44b46210c0feac
   IsDeleted: false
+adx_entityform:
+- RecordId: eb7a2255-abd4-eb11-bacc-00224820e6a0
+  DisplayName: New ticket
+  CheckSum: 37ce1b2eda795324e7f465432c2b99d820a2d9c5b4cc53393ebb0b5d28aac738
+  IsDeleted: false
 adx_pagetemplate:
 - RecordId: 2f0bb125-76f4-47ab-84d7-80444c2411bc
   DisplayName: Search
@@ -860,7 +865,7 @@ adx_webpage:
   IsDeleted: false
 - RecordId: 4d596980-aad4-eb11-bacc-00224820e6a0
   DisplayName: Submit New Ticket
-  CheckSum: 45fbf9c1c12552777479952b62a05879f6b2b2d13fb476aa37d1912eea7b5233
+  CheckSum: 574d9e916dc698df78dc7e03ec3c4f5ea2a824c92ebab84749fd4f3dd463c35d
   IsDeleted: false
 - RecordId: 4e5f61f6-a476-4e81-b69b-e4c3a30bc7ab
   DisplayName: Services
