@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="ce_ticketstatus" localizedName="Ticket Status" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Ticket Status" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="134300000">
+      <labels>
+        <label description="New" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="134300001">
+      <labels>
+        <label description="In Review" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="134300002">
+      <labels>
+        <label description="Assigned" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="134300003">
+      <labels>
+        <label description="Waiting for Information " languagecode="1033" />
+      </labels>
+    </option>
+    <option value="134300004">
+      <labels>
+        <label description="Completed" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

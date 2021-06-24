@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{487d166f-c33c-eb11-a813-000d3a9cbcd2}</formid>
+    <IntroducedVersion>1.0.0.1</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{da0503c3-4f34-42f2-9963-54e2b9156417}" IsUserDefined="1" name="Contact" labelid="{1a7df7b7-359a-4f4d-92f2-1658c63c6d47}">
+          <labels>
+            <label description="Personal Information" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{e016d071-b707-429f-8040-77dfa910323b}" labelid="{81ffe314-26c3-4bd5-b2b7-904658019680}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{f3002096-c1f4-422c-b364-453d0e737705}" locklevel="0">
+                        <labels>
+                          <label description="Job " languagecode="1033" />
+                        </labels>
+                        <control id="ce_job" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ce_job" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9d300f0c-5d99-4f1f-92c3-4247cf58cfbd}" labelid="{4a65c2cc-9d8a-4ff2-aa07-edb32720d05a}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Application name" languagecode="1033" />
+                        </labels>
+                        <control id="ce_application" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ce_application" uniqueid="{2c4ad704-e3ce-6536-59aa-e2d72026e80b}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5e763453-c643-45ca-8002-f9ee887f8efe}" locklevel="0" labelid="{3e4301c5-089e-4442-b100-73efd3639c6f}">
+                        <labels>
+                          <label description="Applicant First Name" languagecode="1033" />
+                        </labels>
+                        <control id="ce_applicantfirstname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ce_applicantfirstname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{10a465d0-9e38-406d-b808-edf40484c331}" locklevel="0" labelid="{d21c5e4a-b057-4064-84e8-58d4bf32c04f}">
+                        <labels>
+                          <label description="Applicant Last Name" languagecode="1033" />
+                        </labels>
+                        <control id="ce_applicantlastname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ce_applicantlastname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9916e376-5a47-45c9-a9ba-97c1eae913cc}" locklevel="0" labelid="{5b70018b-ae7c-4d28-9b26-a62ef8a26c28}">
+                        <labels>
+                          <label description="Applicant Phone Number" languagecode="1033" />
+                        </labels>
+                        <control id="ce_applicantphonenumber" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ce_applicantphonenumber" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{802eed0e-7d76-467a-9c8d-b668f67251cb}" locklevel="0" labelid="{2f6f447f-6ba0-4137-b320-5ae97c4bfe08}">
+                        <labels>
+                          <label description="Applicant Email" languagecode="1033" />
+                        </labels>
+                        <control id="ce_applicantemail" classid="{ADA2203E-B4CD-49BE-9DDF-234642B43B52}" datafieldname="ce_applicantemail" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1ad3027b-2097-456c-ac68-25d0f9f56598}" locklevel="0">
+                        <labels>
+                          <label description="Currently Employed?" languagecode="1033" />
+                        </labels>
+                        <control id="ce_currentlyemployed" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="ce_currentlyemployed" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{237c2180-ffb3-4af1-8cc0-c4f2512f27a3}" locklevel="0" labelid="{5c6e89f0-1ae2-43a2-9ec4-621ec48e779b}" showlabel="true" visible="false">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control id="statecode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1bc55408-2002-48b4-9967-6fc375db6631}" labelid="{6c621fa5-d9a7-4963-a3ef-df96ae6601f9}" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="Employment" id="93a71563-ccc2-4b27-9981-3dd791993dfb" IsUserDefined="0" locklevel="0" showlabel="true">
+          <labels>
+            <label description="Current Employment" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_3_section_1" id="4d6921d2-c82c-479b-92b1-1e2e74b808ac" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115" height="auto">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{8fa811ae-f782-42c4-9ca0-8debcd4f929a}" locklevel="0">
+                        <labels>
+                          <label description="Current Job Title" languagecode="1033" />
+                        </labels>
+                        <control id="ce_currentjobtitle" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ce_currentjobtitle" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{425eecb2-772d-4e4e-81f4-e655ad141984}" locklevel="0">
+                        <labels>
+                          <label description="Employment Date" languagecode="1033" />
+                        </labels>
+                        <control id="ce_employmentdate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ce_employmentdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6d02dde5-a51d-d875-a276-e6005aa54e99}" showlabel="true" locklevel="0" auto="true" rowspan="2">
+                        <labels>
+                          <label description="Job Description" languagecode="1033" />
+                        </labels>
+                        <control id="ce_jobdescription" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="ce_jobdescription" disabled="false" uniqueid="{e990dc60-01ee-ded8-253c-3195a706de31}" />
+                      </cell>
+                    </row>
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{57a2500d-fa7e-4014-a43e-fae3b2e316ce}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{9d5a8578-e288-43a8-8c76-197250676852}" showlabel="false" labelid="{bedbf253-6ebf-48c9-8a1e-751a553a1413}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{98a355a4-9c92-438b-b568-bc017c8a2434}" showlabel="false" labelid="{3538f084-9b83-4eef-9de1-bfaf5f0ecd1a}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{7fe42450-6a54-4fd7-ad7f-7a076bef91d3}" showlabel="false" labelid="{b8a11406-9204-4d6f-98b7-a6fa6656a8e8}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{a4ddc0d9-359d-446c-a4ff-f070a532489a}" locklevel="0" labelid="{640fcb0c-7398-43ae-a768-c74fc4341a73}">
+              <labels>
+                <label description="Applicant Status " languagecode="1033" />
+              </labels>
+              <control id="header_ce_applicantstatus" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ce_applicantstatus" disabled="false" />
+            </cell>
+            <cell id="{23df8810-c67c-4040-84cb-3d55d63345fd}" locklevel="0" labelid="{b30d1846-5bb9-4f4e-995b-05186ecf31aa}">
+              <labels>
+                <label description="Job " languagecode="1033" />
+              </labels>
+              <control id="header_ce_job" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ce_job" disabled="false" />
+            </cell>
+            <cell id="{fae29e55-0141-46cf-9759-adbc2f01b390}" locklevel="0" labelid="{d3206521-c798-4213-82cc-fa7b2974a7e4}">
+              <labels>
+                <label description="Created On" languagecode="1033" />
+              </labels>
+              <control id="header_createdon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{110aadfc-0b08-4516-8eac-efd2bf266c27}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{7a1f4aab-4fc7-4956-864a-d029f6658c72}" showlabel="false" labelid="{769b986c-887c-49c5-bc85-1501412b8e34}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{e5ece232-9b07-4057-adcf-af5cf4063fb3}" showlabel="false" labelid="{481754bb-1930-4e3a-a018-fc57f9ec94c6}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{f2b5f6d5-6bfd-4170-8af6-4e0d93889843}" showlabel="false" labelid="{fb8c4a1b-9c7e-4e1c-9f8c-cb43f49ca379}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Portal - Web Form" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

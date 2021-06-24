@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{95f3de9c-38e6-45e9-94f6-9beae9ff6a06}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{df3eaa48-5107-4191-af88-53e007d7553d}" IsUserDefined="1">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{3110ec48-23f5-46b3-a0a8-625ffa324efd}">
+                  <labels>
+                    <label description="GENERAL" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{0663f372-5025-42af-bce4-84ed69d08df4}">
+                        <labels>
+                          <label description="Ticket Topic" languagecode="1033" />
+                        </labels>
+                        <control id="ce_tickettopic" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ce_tickettopic" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{64b86d16-ecd6-e447-086d-683e411808b1}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="ce_description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="ce_description" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2449c0e9-63ed-045a-5c46-71bd980de860}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Ticket Status" languagecode="1033" />
+                        </labels>
+                        <control id="ce_ticketstatus" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="ce_ticketstatus" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4eeb0304-7c63-6a6a-6e38-813671cb31b5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Summitted by" languagecode="1033" />
+                        </labels>
+                        <control id="ce_summittedby" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ce_summittedby" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{584af26c-bbb2-4360-9e1c-9374a67f6830}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{35b0129c-13b3-2c03-a5b8-279b85b40c45}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control id="statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="ce_issue" localizedName="Issue" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Issue" languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="134300000">
+      <labels>
+        <label description="Building Permit" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="134300001">
+      <labels>
+        <label description="Public Safety " languagecode="1033" />
+      </labels>
+    </option>
+    <option value="134300002">
+      <labels>
+        <label description="Traffic Signal" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="134300003">
+      <labels>
+        <label description="Vandalism" languagecode="1033" />
+      </labels>
+    </option>
+    <option value="134300004">
+      <labels>
+        <label description="Other (Not Listed)" languagecode="1033" />
+      </labels>
+    </option>
+  </options>
+</optionset>

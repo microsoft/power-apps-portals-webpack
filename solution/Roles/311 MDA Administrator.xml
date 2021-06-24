@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Role id="{a7be3689-ee3b-eb11-a813-000d3a9cbcd2}" name="311 MDA Administrator" isinherited="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsCustomizable>1</IsCustomizable>
+  <RolePrivileges>
+    <RolePrivilege name="prvAppendce_Application" level="Global" />
+    <RolePrivilege name="prvAppendce_Job" level="Global" />
+    <RolePrivilege name="prvAppendce_Ticket" level="Global" />
+    <RolePrivilege name="prvAppendToce_Application" level="Global" />
+    <RolePrivilege name="prvAppendToce_Job" level="Global" />
+    <RolePrivilege name="prvAppendToce_Ticket" level="Global" />
+    <RolePrivilege name="prvAssignce_Application" level="Global" />
+    <RolePrivilege name="prvAssignce_Job" level="Global" />
+    <RolePrivilege name="prvAssignce_Ticket" level="Global" />
+    <RolePrivilege name="prvCreatece_Application" level="Global" />
+    <RolePrivilege name="prvCreatece_Job" level="Global" />
+    <RolePrivilege name="prvCreatece_Ticket" level="Global" />
+    <RolePrivilege name="prvCreateSharePointData" level="Global" />
+    <RolePrivilege name="prvDeletece_Application" level="Global" />
+    <RolePrivilege name="prvDeletece_Job" level="Global" />
+    <RolePrivilege name="prvDeletece_Ticket" level="Global" />
+    <RolePrivilege name="prvReadce_Application" level="Global" />
+    <RolePrivilege name="prvReadce_Job" level="Global" />
+    <RolePrivilege name="prvReadce_Ticket" level="Global" />
+    <RolePrivilege name="prvReadPluginAssembly" level="Global" />
+    <RolePrivilege name="prvReadPluginType" level="Global" />
+    <RolePrivilege name="prvReadSdkMessage" level="Global" />
+    <RolePrivilege name="prvReadSdkMessageProcessingStep" level="Global" />
+    <RolePrivilege name="prvReadSdkMessageProcessingStepImage" level="Global" />
+    <RolePrivilege name="prvReadSharePointData" level="Global" />
+    <RolePrivilege name="prvReadSharePointDocument" level="Global" />
+    <RolePrivilege name="prvSharece_Application" level="Global" />
+    <RolePrivilege name="prvSharece_Job" level="Global" />
+    <RolePrivilege name="prvSharece_Ticket" level="Global" />
+    <RolePrivilege name="prvWritece_Application" level="Global" />
+    <RolePrivilege name="prvWritece_Job" level="Global" />
+    <RolePrivilege name="prvWritece_Ticket" level="Global" />
+    <RolePrivilege name="prvWriteSharePointData" level="Global" />
+  </RolePrivileges>
+</Role>

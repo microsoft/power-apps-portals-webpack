@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>ce_Anytown311</UniqueName>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="62" schemaName="ce_Anytown311" />
+    <AppModuleComponent type="1" schemaName="ce_application" />
+    <AppModuleComponent type="60" id="{92a8b73f-e161-4f0c-b84b-404f5b2ad362}" />
+    <AppModuleComponent type="60" id="{487d166f-c33c-eb11-a813-000d3a9cbcd2}" />
+    <AppModuleComponent type="1" schemaName="contact" />
+    <AppModuleComponent type="1" schemaName="ce_job" />
+    <AppModuleComponent type="60" id="{1088dfc7-d6f0-42a3-8a4e-240748926ab2}" />
+    <AppModuleComponent type="1" schemaName="ce_ticket" />
+    <AppModuleComponent type="60" id="{95f3de9c-38e6-45e9-94f6-9beae9ff6a06}" />
+    <AppModuleComponent type="60" id="{f633c02b-5b23-4387-9a2e-0e6c7aaee080}" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Anytown 311" languagecode="1033" />
+  </LocalizedNames>
+</AppModule>
