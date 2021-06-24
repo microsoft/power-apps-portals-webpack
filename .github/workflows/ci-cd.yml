@@ -43,14 +43,14 @@ jobs:
         with:
           name: solution
 
-      - uses: microsoft/powerplatform-actions/import-solution@v0
-        with:
-          environment-url: https://mel-portal-prod-github.crm.dynamics.com/
-          app-id: ${{ secrets.APPLICATION_ID }}
-          client-secret: ${{ secrets.CLIENT_SECRET }}
-          tenant-id: ${{ secrets.TENANT_ID }}
-          solution-file: solution.zip
-          run-asynchronously: true
+#      - uses: microsoft/powerplatform-actions/import-solution@v0
+#        with:
+#          environment-url: https://mel-portal-prod-github.crm.dynamics.com/
+#          app-id: ${{ secrets.APPLICATION_ID }}
+#          client-secret: ${{ secrets.CLIENT_SECRET }}
+#          tenant-id: ${{ secrets.TENANT_ID }}
+#          solution-file: solution.zip
+#          run-asynchronously: true
       
       - name: Authenticate to Dataverse
         run: |
@@ -70,5 +70,5 @@ jobs:
       - name: Import portal
         run: |
           pac/pac paportal upload `
-            --path portal
+            --path portal/starter-portal
         shell: powershell
