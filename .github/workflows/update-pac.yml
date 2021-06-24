@@ -26,5 +26,5 @@ jobs:
       - name: Commit
         run: |
           git add .
-          git commit -m "updated pac using workflow (run id $GITHUB_RUN_ID)" --author ${{ github.actor }}
+          git commit -m "updated pac using workflow (run id $GITHUB_RUN_ID)" --author "${{ github.actor }}"
           git push
