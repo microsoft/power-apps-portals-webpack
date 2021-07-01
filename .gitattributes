@@ -1,3 +1,2 @@
 pac/**/* filter=lfs diff=lfs merge=lfs -text
-/readme-assets/**/* filter=lfs diff=lfs merge=lfs -text
 pac/**/*.* filter=lfs diff=lfs merge=lfs -text

@@ -18,7 +18,6 @@ This project provides a starting point for applying ALM best practices to your P
 ## Setup
 
 1. Either fork this repository or [use it as a template](https://github.com/microsoft/power-apps-portals-alm/generate).
-   ![Screenshot creating a new public repository using this one as a template](./readme-assets/create-repository-from-template.png)
    - **Note:** Because this project uses [environments](https://docs.github.com/en/actions/reference/environments), you must create either a public repository or a private repository for GitHub Enterprise.
 2. Set up the environments in your repository (outlined below):
    1. From your repository home page, click **Settings**.
@@ -41,19 +40,10 @@ This project provides a starting point for applying ALM best practices to your P
    5. Repeat steps ii-iv to create the following secrets:
       - **CLIENT_SECRET**: A client secret for your application user, e.g. _1f7~GP48Pi17T-R.4uyIU7_kOiV2NCnH_Q_.
       - **TENANT_ID**: The Directory (tenant) ID that your development environment is provisioned in, e.g. _fedcba98-7654-3210-fedc-ba9876543210_.
-
-When you're finished with steps 2-3, your Secrets page should look like one of the following:
-
-- If you are using a single application user for both environments:
-  ![Screenshot of Secrets page with two environment secrets and three repository secrets](./readme-assets/one-application-user-secrets.png)
-- If you are using one application user per environment:
-  ![Screenshot of Secrets page with eight environment secrest and no repository secrets](./readme-assets/two-application-users-secrets.png)
-
 4. Run the **Provision Dev** workflow (outlined below):
-    1. Click **Actions**.
-    2. Click **Provision Dev**.
-    3. Click **Run workflow** > **Run workflow**.
-
+   1. Click **Actions**.
+   2. Click **Provision Dev**.
+   3. Click **Run workflow** > **Run workflow**.
 5. (Optional) Using the same steps outlined in step 4, run the **CI/CD** workflow.
 
 ## Contributing
