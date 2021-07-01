@@ -28,17 +28,17 @@ This project provides a starting point for applying ALM best practices to your P
    5. Under **Environment secrets**, click **Add Secret**.
    6. For **Name**, type _URL_.
    7. For **Value**, provide the URL of your development environment, e.g. *https://my-awesome-dev.crm.dynamics.com/*.
-   8. If you are using separate application users for each environment, or if you are using separate tenants, repeat steps 5-7 to create the following secrets:
+   8. If you are using separate application users for each environment, or if you are using separate tenants, repeat steps v-vii to create the following secrets:
       - **APPLICATION_ID**: Application (client) ID of your application user, e.g. _01234567-89ab-cdef-0123-456789abcdef_
       - **CLIENT_SECRET**: A client secret for your application user, e.g. _1f7~GP48Pi17T-R.4uyIU7_kOiV2NCnH_Q_.
       - **TENANT_ID**: The Directory (tenant) ID that your development environment is provisioned in, e.g. _fedcba98-7654-3210-fedc-ba9876543210_.
-   9. Repeat steps 1-8 for your production environment.
+   9. Repeat steps i-viii for your production environment.
 3. If you are using a single application user for both environments, add its information to your repository as secrets (outlined below):
    1. In the left-hand navigation of your repository's Settings page, click **Secrets**.
    2. Click **New repository secret**.
    3. For **Name**, type _APPLICATION_ID_.
    4. For **Value**, provide the application (client) ID of your application user, e.g. _01234567-89ab-cdef-0123-456789abcdef_.
-   5. Repeat steps 2-4 to create the following secrets:
+   5. Repeat steps ii-iv to create the following secrets:
       - **CLIENT_SECRET**: A client secret for your application user, e.g. _1f7~GP48Pi17T-R.4uyIU7_kOiV2NCnH_Q_.
       - **TENANT_ID**: The Directory (tenant) ID that your development environment is provisioned in, e.g. _fedcba98-7654-3210-fedc-ba9876543210_.
 
