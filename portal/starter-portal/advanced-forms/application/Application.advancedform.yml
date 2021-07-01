@@ -1,0 +1,11 @@
+adx_authenticationrequired: false
+adx_editexistingrecordpermitted: true
+adx_multiplerecordsperuserpermitted: true
+adx_name: Application
+adx_progressindicatorenabled: true
+adx_progressindicatorignorelaststep: false
+adx_progressindicatorprependstepnum: false
+adx_progressindicatortype: 756150002
+adx_savechangeswarningonclose: false
+adx_startnewsessiononload: false
+adx_webformid: 68d12175-06d5-eb11-bacc-00224820eeac

@@ -380,7 +380,16 @@ adx_contentsnippet:
 adx_entityform:
 - RecordId: eb7a2255-abd4-eb11-bacc-00224820e6a0
   DisplayName: New ticket
-  CheckSum: 37ce1b2eda795324e7f465432c2b99d820a2d9c5b4cc53393ebb0b5d28aac738
+  CheckSum: ebbdf64b46f148fc4ef665904cade62c6e8e2dd31c1373934263e80a3f4e67e6
+  IsDeleted: false
+- RecordId: fdddebe8-14da-eb11-bacb-000d3a8ba1e9
+  DisplayName: Job posting
+  CheckSum: f2895d9605cff39212228ebe7648f21c2c5e6af452f48a9a8838556fa0c70574
+  IsDeleted: false
+adx_entitylist:
+- RecordId: 839c1f4b-acd4-eb11-bacc-00224820eeac
+  DisplayName: Available jobs
+  CheckSum: ef108d84dbddda2a6040a3f81b5e17817116347310c95f4868525ce4d026d81a
   IsDeleted: false
 adx_pagetemplate:
 - RecordId: 2f0bb125-76f4-47ab-84d7-80444c2411bc
@@ -711,6 +720,14 @@ adx_urlhistory:
   DisplayName: ~/new-page-1
   CheckSum: 0b3240ecf6fd793308fd9501acebb191cdb9a73d2630f5572196978b396fdc90
   IsDeleted: false
+- RecordId: 34eb423e-f36b-1410-8eb9-00ba62cf20a7
+  DisplayName: ~/new-page-1
+  CheckSum: 11a893e1a47791ea1d2959dbf04f9cdb64ffa8078b6b263a091be1b067274a68
+  IsDeleted: false
+- RecordId: e637433e-f36b-1410-87a4-00084730ab07
+  DisplayName: ~/new-page-1
+  CheckSum: c3042ab2e29fda623327294cf8e60a4faed9063b4af2c407fa07fecb3e16e206
+  IsDeleted: false
 adx_webfile:
 - RecordId: 04bf86c6-ab21-466d-b63e-5f22c4340d77
   DisplayName: About Us.png
@@ -764,6 +781,11 @@ adx_webfile:
   DisplayName: Product B.png
   CheckSum: 9a5a8c5909bd3d6bc2342518a1f42ece4c56fe7ea7959a49aaa90e93014862ed
   IsDeleted: false
+adx_webform:
+- RecordId: 68d12175-06d5-eb11-bacc-00224820eeac
+  DisplayName: Application
+  CheckSum: 2881308da32853e802e102c289c7683d730b08b22204a4ef39ad23fbaff0b976
+  IsDeleted: false
 adx_weblink:
 - RecordId: 03e1ff20-de15-4ed5-a0b0-239751f2ead7
   DisplayName: FAQ
@@ -796,6 +818,10 @@ adx_weblink:
 - RecordId: 9b0f4432-a387-4542-8519-fbf8c00c9296
   DisplayName: Submit New Ticket
   CheckSum: 302ebfdb22f34d2140cdd44796c9121fe9afd2b5c19c773d4f5d2bad604b5579
+  IsDeleted: false
+- RecordId: 9d95868b-07a1-4b26-8111-38c855b9e9a6
+  DisplayName: Open positions
+  CheckSum: 488ad4942a053dbc68662e078285129e40955d05878da08ee229361049310246
   IsDeleted: false
 - RecordId: 9fc01266-c65b-4840-b1d0-380b87f2625e
   DisplayName: About us
@@ -911,9 +937,17 @@ adx_webpage:
   DisplayName: Product A (sample)
   CheckSum: 1ad285f0239d6ebcaa56cd4414f859d0310fa72cc124907e1e9e18192606947e
   IsDeleted: false
+- RecordId: bc235418-acd4-eb11-bacc-00224820eeac
+  DisplayName: Open positions
+  CheckSum: 990a90585de41caf9f657595a01d2435bf9c68bf89319492897dfb29a50ee44f
+  IsDeleted: false
 - RecordId: cae35304-a9d4-eb11-bacc-00224820e6a0
   DisplayName: FAQ
   CheckSum: b40126e80bcaa9514a3d55807abea53b78f0ad1aa129cb4043ac5f852de0cea0
+  IsDeleted: false
+- RecordId: df7388ec-8721-4dc4-96b6-cd47ad3dafbc
+  DisplayName: Open positions
+  CheckSum: a6348ebbdf78736fa675ad1b8ed8cf5f0d5824435708a15abb9c3552106192b0
   IsDeleted: false
 - RecordId: e04a216f-6a63-4b96-a340-d7051a974b8f
   DisplayName: Submit New Ticket
