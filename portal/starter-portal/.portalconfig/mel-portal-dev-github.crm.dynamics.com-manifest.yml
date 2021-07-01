@@ -382,10 +382,14 @@ adx_entityform:
   DisplayName: New ticket
   CheckSum: ebbdf64b46f148fc4ef665904cade62c6e8e2dd31c1373934263e80a3f4e67e6
   IsDeleted: false
+- RecordId: fdddebe8-14da-eb11-bacb-000d3a8ba1e9
+  DisplayName: Job posting
+  CheckSum: f2895d9605cff39212228ebe7648f21c2c5e6af452f48a9a8838556fa0c70574
+  IsDeleted: false
 adx_entitylist:
 - RecordId: 839c1f4b-acd4-eb11-bacc-00224820eeac
   DisplayName: Available jobs
-  CheckSum: 2393d8f689b7976022487482b678413cc263ebfbd8bceeb70ae6e8c3067fd2d2
+  CheckSum: ef108d84dbddda2a6040a3f81b5e17817116347310c95f4868525ce4d026d81a
   IsDeleted: false
 adx_pagetemplate:
 - RecordId: 2f0bb125-76f4-47ab-84d7-80444c2411bc
