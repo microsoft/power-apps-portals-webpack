@@ -1,25 +1,7 @@
-name: CI/CD
+name: Provision Dev
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - portal/**
-      - solution/**
-  workflow_run:
-    workflows:
-      - Commit Portal
-      - Commit Solution
-    branches:
-      - main
-    types:
-      - completed
   workflow_dispatch:
-
-concurrency:
-  group: production
-  cancel-in-progress: true
 
 jobs:
   build_solution:
@@ -31,7 +13,7 @@ jobs:
         with:
           solution-file: ${{ runner.temp }}/solution.zip
           solution-folder: solution
-          solution-type: Managed
+          solution-type: Unmanaged
 
       - uses: actions/upload-artifact@v2
         with:
@@ -40,7 +22,7 @@ jobs:
 
   deploy:
     needs: build_solution
-    environment: production
+    environment: development
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v2

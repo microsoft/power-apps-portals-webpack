@@ -9,6 +9,7 @@ on:
 
 jobs:
   commit:
+    environment: development
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v2
@@ -16,7 +17,7 @@ jobs:
       - uses: microsoft/powerplatform-actions/export-solution@v0
         name: Export unmanaged
         with:
-          environment-url: https://mel-portal-dev-github.crm.dynamics.com/
+          environment-url: ${{ secrets.URL }}
           app-id: ${{ secrets.APPLICATION_ID }}
           client-secret: ${{ secrets.CLIENT_SECRET }}
           tenant-id: ${{ secrets.TENANT_ID }}
@@ -27,7 +28,7 @@ jobs:
       - uses: microsoft/powerplatform-actions/export-solution@v0
         name: Export managed
         with:
-          environment-url: https://mel-portal-dev-github.crm.dynamics.com/
+          environment-url: ${{ secrets.URL }}
           app-id: ${{ secrets.APPLICATION_ID }}
           client-secret: ${{ secrets.CLIENT_SECRET }}
           tenant-id: ${{ secrets.TENANT_ID }}

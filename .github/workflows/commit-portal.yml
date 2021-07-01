@@ -9,6 +9,7 @@ on:
 
 jobs:
   commit:
+    environment: development
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v2
@@ -24,7 +25,7 @@ jobs:
             --tenant $env:TENANT_ID `
             --cloud Public
         env:
-          URL: https://mel-portal-dev-github.crm.dynamics.com/
+          URL: ${{ secrets.URL }}
           APPLICATION_ID: ${{ secrets.APPLICATION_ID }}
           CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
           TENANT_ID: ${{ secrets.TENANT_ID }}
