@@ -19,7 +19,89 @@ adx_settings: >-
 
     "ExtendedViewActions": [],
 
-    "ItemActions": [],
+    "ItemActions": [
+
+      {
+
+        "Type": "CrmEntityFormView-DetailsAction",
+
+        "SuccessMessage": [
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 1033,
+
+            "Value": ""
+
+          }
+
+        ],
+
+        "RecordIdQueryStringParameterName": "id",
+
+        "TargetType": 0,
+
+        "OnComplete": 0,
+
+        "RedirectWebpageId": "",
+
+        "RedirectUrl": "",
+
+        "EntityFormId": "fdddebe8-14da-eb11-bacb-000d3a8ba1e9",
+
+        "ShowModal": 0,
+
+        "Confirmation": [
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 1033,
+
+            "Value": ""
+
+          }
+
+        ],
+
+        "ButtonLabel": [
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 1033,
+
+            "Value": ""
+
+          }
+
+        ],
+
+        "ButtonTooltip": [
+
+          {
+
+            "Type": "LanguageResources",
+
+            "LCID": 1033,
+
+            "Value": ""
+
+          }
+
+        ],
+
+        "ActionIndex": 0,
+
+        "FilterCriteria": ""
+
+      }
+
+    ],
 
     "ExtendedItemActions": [],
 
