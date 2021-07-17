@@ -777,10 +777,6 @@ adx_webfile:
   DisplayName: Analytics.png
   CheckSum: 7d63c43ca728b770749d6d2f0269529aea439777fef43a4eb7db0f3a913cfc84
   IsDeleted: false
-- RecordId: 8eac95b1-92db-eb11-bacb-000d3a8bae0a
-  DisplayName: adx_entityform_eb7a2255-abd4-eb11-bacc-00224820e6a0.js
-  CheckSum: f15dcbf25e9bac7f621e6fb2d8ec8675dbf6a750fb04154e253a2aa36efdadd4
-  IsDeleted: false
 - RecordId: 04bf86c6-ab21-466d-b63e-5f22c4340d77
   DisplayName: About Us.png
   CheckSum: b72e92c94e27492779ee7b6c6e5c9233cb325f306d46a4eb1d264913afd8232a
@@ -903,7 +899,7 @@ adx_webpage:
   IsDeleted: false
 - RecordId: 37f25ff6-1740-4f62-902b-34eac1ca6162
   DisplayName: Home
-  CheckSum: 07917cfbddc48bef7c43fc7174d8c9da824b82ba1d2df6e44db27b7531b560f8
+  CheckSum: f40efd2f9c2aadffbfbf7b64ea1431504910ca660288b5ccd8d4c86c6ffa5a7f
   IsDeleted: false
 - RecordId: cae35304-a9d4-eb11-bacc-00224820e6a0
   DisplayName: FAQ
@@ -1232,10 +1228,6 @@ annotation:
 - RecordId: 8aa4ffa3-1871-4d8d-bc41-dda1bc5fa99c
   DisplayName: Analytics.png
   CheckSum: cd1ea930e96d31367ae4513f2862cd2fcab2bfd3b80d957fae51711ab20463bc
-  IsDeleted: false
-- RecordId: 2f0a25ba-70de-eb11-bacb-000d3a8b5637
-  DisplayName: adx_entityform_eb7a2255-abd4-eb11-bacc-00224820e6a0.es6
-  CheckSum: 7c60f6fb39513d21f777921c144a97e8f3bed8a2dc69c0a9cd0fde0ebe877fa5
   IsDeleted: false
 - RecordId: 686052c8-3f0c-48af-b994-0fb9017a9701
   DisplayName: About Us.png
