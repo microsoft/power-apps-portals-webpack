@@ -1,5 +1,5 @@
 {
-  "name": "power-apps-portals-alm",
+  "name": "@microsoft/power-apps-portals-webpack",
   "version": "1.0.0",
   "description": "This project provides a starting point for applying ALM best practices to your Power Apps Portals projects. It adopts two major tenets:",
   "main": "index.js",
