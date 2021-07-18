@@ -13,6 +13,7 @@ module.exports = {
   },
   assets: {
     "new-ticket.js": "starter-portal/basic-forms/new-ticket",
-    "application.js": "starter-portal/advanced-forms/application",
+    "application.js":
+      "starter-portal/advanced-forms/application/advanced-form-steps/01---personal-information",
   },
 };
