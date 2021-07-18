@@ -2,6 +2,7 @@ const dotenv = require("dotenv");
 dotenv.config();
 
 module.exports = {
+  srcPath: "src",
   portalPath: "portal",
   environmentUrl: process.env.URL,
   credentials: {
@@ -11,6 +12,7 @@ module.exports = {
     tenantId: process.env.TENANT_ID,
   },
   assets: {
-    "main.js": "starter-portal/basic-forms/new-ticket",
+    "new-ticket.js": "starter-portal/basic-forms/new-ticket",
+    "application.js": "starter-portal/advanced-forms/application",
   },
 };
