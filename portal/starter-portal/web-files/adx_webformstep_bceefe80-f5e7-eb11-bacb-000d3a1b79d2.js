@@ -9,14 +9,14 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/new-ticket.js":
-/*!***************************!*\
-  !*** ./src/new-ticket.js ***!
-  \***************************/
+/***/ "./src/application.js":
+/*!****************************!*\
+  !*** ./src/application.js ***!
+  \****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var domready__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! domready */ \"./node_modules/domready/ready.js\");\n/* harmony import */ var domready__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(domready__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _renderPhoneNumberControl__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./renderPhoneNumberControl */ \"./src/renderPhoneNumberControl.js\");\n\n\ndomready__WEBPACK_IMPORTED_MODULE_0___default()(function () {\n  (0,_renderPhoneNumberControl__WEBPACK_IMPORTED_MODULE_1__.default)(\"ce_phonenumber\");\n});\n\n//# sourceURL=webpack://@microsoft/power-apps-portals-webpack/./src/new-ticket.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var domready__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! domready */ \"./node_modules/domready/ready.js\");\n/* harmony import */ var domready__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(domready__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _renderPhoneNumberControl__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./renderPhoneNumberControl */ \"./src/renderPhoneNumberControl.js\");\n\n\ndomready__WEBPACK_IMPORTED_MODULE_0___default()(function () {\n  (0,_renderPhoneNumberControl__WEBPACK_IMPORTED_MODULE_1__.default)(\"ce_applicantphonenumber\");\n});\n\n//# sourceURL=webpack://@microsoft/power-apps-portals-webpack/./src/application.js?");
 
 /***/ }),
 
@@ -1145,7 +1145,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction apply(style, options, obj) {\n  
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("./src/new-ticket.js");
+/******/ 	var __webpack_exports__ = __webpack_require__("./src/application.js");
 /******/ 	
 /******/ })()
 ;
