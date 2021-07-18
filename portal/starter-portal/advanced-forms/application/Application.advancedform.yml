@@ -7,5 +7,6 @@ adx_progressindicatorignorelaststep: false
 adx_progressindicatorprependstepnum: false
 adx_progressindicatortype: 756150002
 adx_savechangeswarningonclose: false
-adx_startnewsessiononload: false
+adx_startnewsessiononload: true
+adx_startstep: bceefe80-f5e7-eb11-bacb-000d3a1b79d2
 adx_webformid: 68d12175-06d5-eb11-bacc-00224820eeac
