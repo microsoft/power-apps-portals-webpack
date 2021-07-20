@@ -25,7 +25,8 @@
     "babel-loader": "^8.2.2",
     "css-loader": "^5.2.6",
     "dotenv": "^10.0.0",
-    "style-loader": "^3.0.0"
+    "style-loader": "^3.0.0",
+    "webpack-dataverse": "^1.0.1"
   },
   "dependencies": {
     "domready": "^1.0.8",
