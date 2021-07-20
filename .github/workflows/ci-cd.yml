@@ -66,9 +66,7 @@ jobs:
       - uses: actions/download-artifact@v2
         with:
           name: portal
-          path: ${{ runner.temp }}
-
-      - run: ls ${{ runner.temp }} -R
+          path: ${{ runner.temp }}/portal
 
 #      - uses: microsoft/powerplatform-actions/import-solution@v0
 #        with:
@@ -78,24 +76,24 @@ jobs:
 #          tenant-id: ${{ secrets.TENANT_ID }}
 #          solution-file: ${{ runner.temp }}/solution.zip
 #          run-asynchronously: true
-#
-#      - name: Authenticate to Dataverse
-#        run: |
-#          pac/pac auth create `
-#            --url $env:URL `
-#            --applicationId $env:APPLICATION_ID `
-#            --clientSecret $env:CLIENT_SECRET `
-#            --tenant $env:TENANT_ID `
-#            --cloud Public
-#        env:
-#          URL: ${{ secrets.URL }}
-#          APPLICATION_ID: ${{ secrets.APPLICATION_ID }}
-#          CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
-#          TENANT_ID: ${{ secrets.TENANT_ID }}
-#        shell: powershell
-#
-#      - name: Import portal
-#        run: |
-#          pac/pac paportal upload `
-#            --path ${{ runner.temp }}/portal/starter-portal
-#        shell: powershell
+
+      - name: Authenticate to Dataverse
+        run: |
+          pac/pac auth create `
+            --url $env:URL `
+            --applicationId $env:APPLICATION_ID `
+            --clientSecret $env:CLIENT_SECRET `
+            --tenant $env:TENANT_ID `
+            --cloud Public
+        env:
+          URL: ${{ secrets.URL }}
+          APPLICATION_ID: ${{ secrets.APPLICATION_ID }}
+          CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
+          TENANT_ID: ${{ secrets.TENANT_ID }}
+        shell: powershell
+
+      - name: Import portal
+        run: |
+          pac/pac paportal upload `
+            --path ${{ runner.temp }}/portal/starter-portal
+        shell: powershell
