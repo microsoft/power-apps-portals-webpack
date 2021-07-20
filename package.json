@@ -4,8 +4,8 @@
   "description": "This project provides a starting point for applying ALM best practices to your Power Apps Portals projects. It adopts two major tenets:",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "dataverse"
+    "build": "dataverse build",
+    "dev": "dataverse serve"
   },
   "repository": {
     "type": "git",
