@@ -38,8 +38,19 @@ jobs:
           name: solution
           path: ${{ runner.temp }}/solution.zip
 
+  build_portal:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/upload-artifact@v2
+        with:
+          name: portal
+          path: portal
+
   deploy:
-    needs: build_solution
+    needs:
+      - build_solution
+      - build_portal
     environment: production
     runs-on: windows-latest
     steps:
@@ -50,6 +61,12 @@ jobs:
       - uses: actions/download-artifact@v2
         with:
           name: solution
+          path: ${{ runner.temp }}
+
+      - uses: actions/download-artifact@v2
+        with:
+          name: portal
+          path: ${{ runner.temp }}/portal
 
       - uses: microsoft/powerplatform-actions/import-solution@v0
         with:
@@ -57,7 +74,7 @@ jobs:
           app-id: ${{ secrets.APPLICATION_ID }}
           client-secret: ${{ secrets.CLIENT_SECRET }}
           tenant-id: ${{ secrets.TENANT_ID }}
-          solution-file: solution.zip
+          solution-file: ${{ runner.temp }}/solution.zip
           run-asynchronously: true
 
       - name: Authenticate to Dataverse
@@ -78,5 +95,5 @@ jobs:
       - name: Import portal
         run: |
           pac/pac paportal upload `
-            --path portal/starter-portal
+            --path ${{ runner.temp }}/portal/starter-portal
         shell: powershell
