@@ -22,21 +22,21 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-#  build_solution:
-#    runs-on: windows-latest
-#    steps:
-#      - uses: actions/checkout@v2
-#
-#      - uses: microsoft/powerplatform-actions/pack-solution@v0
-#        with:
-#          solution-file: ${{ runner.temp }}/solution.zip
-#          solution-folder: solution
-#          solution-type: Managed
-#
-#      - uses: actions/upload-artifact@v2
-#        with:
-#          name: solution
-#          path: ${{ runner.temp }}/solution.zip
+  build_solution:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: microsoft/powerplatform-actions/pack-solution@v0
+        with:
+          solution-file: ${{ runner.temp }}/solution.zip
+          solution-folder: solution
+          solution-type: Managed
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: solution
+          path: ${{ runner.temp }}/solution.zip
 
   build_portal:
     runs-on: ubuntu-latest
@@ -55,7 +55,7 @@ jobs:
 
   deploy:
     needs:
-#      - build_solution
+      - build_solution
       - build_portal
     environment: production
     runs-on: windows-latest
@@ -64,24 +64,24 @@ jobs:
         with:
           lfs: true
 
-#      - uses: actions/download-artifact@v2
-#        with:
-#          name: solution
-#          path: ${{ runner.temp }}
+      - uses: actions/download-artifact@v2
+        with:
+          name: solution
+          path: ${{ runner.temp }}
 
       - uses: actions/download-artifact@v2
         with:
           name: portal
           path: ${{ runner.temp }}/portal
 
-#      - uses: microsoft/powerplatform-actions/import-solution@v0
-#        with:
-#          environment-url: ${{ secrets.URL }}
-#          app-id: ${{ secrets.APPLICATION_ID }}
-#          client-secret: ${{ secrets.CLIENT_SECRET }}
-#          tenant-id: ${{ secrets.TENANT_ID }}
-#          solution-file: ${{ runner.temp }}/solution.zip
-#          run-asynchronously: true
+      - uses: microsoft/powerplatform-actions/import-solution@v0
+        with:
+          environment-url: ${{ secrets.URL }}
+          app-id: ${{ secrets.APPLICATION_ID }}
+          client-secret: ${{ secrets.CLIENT_SECRET }}
+          tenant-id: ${{ secrets.TENANT_ID }}
+          solution-file: ${{ runner.temp }}/solution.zip
+          run-asynchronously: true
 
       - name: Authenticate to Dataverse
         run: |
