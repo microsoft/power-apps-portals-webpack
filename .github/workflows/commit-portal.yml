@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       commit_message:
-        description: 'Message for the commit'
+        description: "Message for the commit"
         required: true
 
 jobs:
@@ -13,36 +13,19 @@ jobs:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v2
-        with:
-          lfs: true
-      
-      - name: Authenticate to Dataverse
-        run: |
-          pac/pac auth create `
-            --url $env:URL `
-            --applicationId $env:APPLICATION_ID `
-            --clientSecret $env:CLIENT_SECRET `
-            --tenant $env:TENANT_ID `
-            --cloud Public
-        env:
-          URL: ${{ secrets.URL }}
-          APPLICATION_ID: ${{ secrets.APPLICATION_ID }}
-          CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
-          TENANT_ID: ${{ secrets.TENANT_ID }}
-        shell: powershell
 
       - name: Delete portal folder
         run: rm portal -Recurse -Force -ErrorAction Ignore
 
-      - name: Export portal
-        run: |
-          pac/pac paportal download `
-            --path portal `
-            --websiteId $env:WEBSITE_ID
-        env:
-          WEBSITE_ID: f46b70cc-580b-4f1a-87c3-41deb48eb90d
-        shell: powershell
-      
+      - uses: microsoft/powerplatform-actions/download-paportal@v0
+        with:
+          environment-url: ${{ secrets.URL }}
+          app-id: ${{ secrets.APPLICATION_ID }}
+          client-secret: ${{ secrets.CLIENT_SECRET }}
+          tenant-id: ${{ secrets.TENANT_ID }}
+          download-path: portal
+          website-id: f46b70cc-580b-4f1a-87c3-41deb48eb90d
+
       - name: Configure git
         run: |
           git config user.name "GitHub Actions"
